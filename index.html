@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="shortcut icon" href="assets/images/iconport.ico" type="image/x-icon">
+    <title>Portfólio Seidler</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="logo">
+            <div class="logoimg">
+                <img src="assets/images/logo1.png"/>
+            </div>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#dev">programação</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contato">contato</a></li>
+                    <li><a class="cv-button" href="assets/docs/cv-principal.pdf" download>Baixar currículo
+                        <i class="fa fa-file-pdf-o" style="margin-left: 5px; font-size: 16px;"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="banner">
+        <div class="sliders" style="margin-left: 00vw;">
+            <div class="slide" id="slide-1">
+                <div class="slidearea">
+                    <h1>Bem-Vindo ao</h1>
+                    <h1><span>meu Portfólio</span></h1>
+                </div>
+            </div>
+            <div class="slide" id="slide-2">
+                <div class="slidearea" >
+                    <h1>Lucca Seidler</h1>
+                    <h2><span>Full Stack Developer</span></h2>
+                </div>
+            </div>
+            <div class="slide" id="slide-3">
+                <div class="slidearea">
+                    <h1>Objetivo do site</h1>
+                    <h2><span>Mostrar minhas habilidades como desenvolvedor FullStack</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sliders-pointers">
+            <div class="pointer active" data-slide-index="0"></div>
+            <div class="pointer" data-slide-index="1"></div>
+            <div class="pointer" data-slide-index="2"></div>
+        </div>
+    </section>
+    <section class="default">
+        <div class="section-title" id="aboutme">About Me</div>
+        <div class="section-desc">Quem sou eu?</div>
+        <div class="section-body">
+            <div class="section-aboutus">
+                <div class="section-aboutus--left">
+                    <p> Meu nome é Lucca Seidler de Azevedo, tenho 23 anos e sou natural de Porto Alegre, RS. Atualmente, estou cursando o 8º semestre de Ciência da Computação na UNIRITTER campus FAPA, e ao longo de cinco anos adquiri experiência tanto em infraestrutura e suporte quanto em desenvolvimento, somando quase um ano nessa área. Minha busca constante por evolução na programação é complementada pela fluência em inglês. Além do mundo da tecnologia, meus interesses abrangem jogar futebol, video games e compartilhar momentos bons com amigos e família.</p>
+                    <br/>
+                    <a href="assets/docs/CV2023-1port.pdf" class="button-about" download="">Saiba Mais</a>
+                </div>
+                <div class="section-aboutus--right">
+                    <img src="media/momo.png"/>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="default dark">
+        <div class="section-title" id="dev">Desenvolvimento do site</div>
+        <div class="section-desc">Linguagens que possuo conhecimento pleno</div>
+        <div class="section-body">
+            <div class="section-services">
+                <div class="section-service">
+                    <img src="assets/images/js.png"/>
+                    <h4>JavaScript</h4>
+                    <p>Desenvolvimento tanto para Web como para Chatbots, utilizado neste Portfólio.</p>
+                </div>
+                <div class="section-service">
+                    <img src="assets/images/html.png"/>
+                    <h4>HTML</h4>
+                    <p>Utilizado para Web, criação de documentos, formatação de emails e interfaces.</p>
+                </div>
+                <div class="section-service">
+                    <img src="assets/images/css.png"/>
+                    <h4>CSS</h4>
+                    <p>Customização completa do site.</p>
+                </div>
+                <div class="section-service">
+                    <img src="assets/images/php.png"/>
+                    <h4>PHP</h4>
+                    <p>Desenvolvimento de sistema interno para empresas, utilizando WordPress, APIs, envio de emails, etc.</p>
+                </div>
+            </div>          
+        </div>
+    </section>
+
+    <section class="default light">
+        <div class="section-title" id="skills">skills e conhecimentos</div>
+        <div class="section-desc">experiências prévias e estudos</div>
+        <div class="section-body">
+            <div class="section-know">
+                <div class="section-know--filters">
+                    <ul>
+                        <li class="active" data-category="todos">Todos</li>
+                        <li data-category="infra">Infra</li>
+                        <li data-category="prog">programação</li>
+                        <li data-category="cloud">Cloud</li>
+                        <li data-category="net">Redes</li>
+                        <li data-category="system">Sistemas</li>
+                    </ul>
+                </div>
+                <div class="section-know--photos">
+                    <div class="section-know--photo" data-category="infra" >
+                        <div class="section-know--photoarea">
+                            <div class="section-know--photoinfo">
+                                <h5>Servidores</h5>
+                                <p>Núvem, pastas, usuários, VMs</p>
+                            </div>
+                            <img src="media/server.jpg" />
+                        </div>
+                    </div>
+                    <div class="section-know--photo" data-category="net">
+                        <div class="section-know--photoarea">
+                            <div class="section-know--photoinfo">
+                                <h5>Redes</h5>
+                                <p>Redes, Switches, TCP/IP, Firewalls,domínios</p>
+                            </div>
+                            <img src="media/redes.jpg" />
+                        </div>
+                    </div>
+                    <div class="section-know--photo" data-category="net">
+                        <div class="section-know--photoarea">
+                            <div class="section-know--photoinfo">
+                                <h5>Redes 2</h5>
+                                <p>Active Directory, Gsuite, Admin Office</p>
+                            </div>
+                            <img src="media/redes2.jpg" />
+                        </div>
+                    </div>
+                    <div class="section-know--photo" data-category="infra">
+                        <div class="section-know--photoarea">
+                            <div class="section-know--photoinfo">
+                                <h5>Hardware</h5>
+                                <p>Montagem/reparo servidores, máquinas</p>
+                            </div>
+                            <img src="media/hardware.jpg" />
+                        </div>
+                    </div>
+                    <div class="section-know--photo" data-category="system">
+                        <div class="section-know--photoarea">
+                            <div class="section-know--photoinfo">
+                                <h5>Sistemas Operacionais</h5>
+                                <p>Windows, Linux, MacOs</p>
+                            </div>
+                            <img src="media/winlinux.jpg" />
+                        </div>
+                    </div>
+                    <div class="section-know--photo" data-category="prog">
+                        <div class="section-know--photoarea">
+                            <div class="section-know--photoinfo">
+                                <h5>Frontend</h5>
+                                <p>JS, CSS, HTML, React, PHP</p>
+                            </div>
+                            <img src="media/dev.jpg" />
+                        </div>
+                    </div>
+                    <div class="section-know--photo" data-category="prog">
+                        <div class="section-know--photoarea">
+                            <div class="section-know--photoinfo">
+                                <h5>Banco de Dados</h5>
+                                <p>Sharepoint, MySQL</p>
+                            </div>
+                            <img src="media/db.jpg" />
+                        </div>
+                    </div>
+                    <div class="section-know--photo" data-category="cloud">
+                        <div class="section-know--photoarea">
+                            <div class="section-know--photoinfo">
+                                <h5>Cloud</h5>
+                                <p>AWS e Google Cloud</p>
+                            </div>
+                            <img src="media/cloud.png" />
+                        </div>
+                    </div>
+                    <div class="section-know--photo" data-category="prog">
+                        <div class="section-know--photoarea">
+                            <div class="section-know--photoinfo">
+                                <h5>Chatbot</h5>
+                                <p>APIs, Design de chat, programação</p>
+                            </div>
+                            <img src="media/chatbot.jpg" />
+                        </div>
+                    </div>
+                    <div class="section-know--photo" data-category="infra">
+                        <div class="section-know--photoarea">
+                            <div class="section-know--photoinfo">
+                                <h5>Office 365</h5>
+                                <p>Administração de rede 365 full</p>
+                            </div>
+                            <img src="media/365.jpg" />
+                        </div>
+                    </div>
+                    <div class="section-know--photo" data-category="prog">
+                        <div class="section-know--photoarea">
+                            <div class="section-know--photoinfo">
+                                <h5>APIs</h5>
+                                <p>Requests e criação</p>
+                            </div>
+                            <img src="media/api.png" />
+                        </div>
+                    </div>
+                    <div class="section-know--photo" data-category="prog">
+                        <div class="section-know--photoarea">
+                            <div class="section-know--photoinfo">
+                                <h5>Git</h5>
+                                <p>Controle de versionamento</p>
+                            </div>
+                            <img src="media/git.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+</main>
+<footer>
+    <footer class="footer" id="contato"> 
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="">Desenvolvimento Web</a></li>
+                        <li><a href="">Desenvolvimento FullStack</a></li>
+                        <li><a href="">Suporte a Hardware</a></li>
+                        <li><a href="">Suporte a infraestrutura</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>experiências em</h4>
+                    <ul>
+                        <li><a href="https://galvaoassessoria.com.br">Galvão Advogados</a></li>
+                        <li><a href="https://totalvidas.com.br">Total vidas</a></li>
+                        <li><a href="https://www.atfbank.com">ATF Bank</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Entre em contato</h4>
+                    <ul>
+                        <li><a href="#">luccaseidler2000@gmail</a></li>
+                        <li><a href="#">+55 (51) 9 8313-7431</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Mais informações</h4>
+                    <div class="social-links">
+                        <a href="https://wa.me/5551983137431?text=Olá%20Lucca,%20vim%20pelo%20seu%20portfólio"><i class="fa fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/lucca-seidler-3a2887229"><i class="fa fa-linkedin-square"></i></a>
+                        <a href="mailto:luccaseidler2000@gmail.com?subject=CONTATO%20%7C%20PORTF%C3%93LIO&body=Ol%C3%A1%20Lucca%2C%20gostaria%20de%20entrar%20em%20contato%20com%20voc%C3%AA.%0A%0A%3Cpreencher%20%3E%20"><i class="fa fa-envelope"></i></a>
+                        <a href="https://github.com/luccaseidler"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <button id="scrollToTopBtn" class="scroll-to-top-btn"><i class="fa fa-arrow-up" aria-hidden="true" style="font-size: 20px;"></i></button>
+</footer>
+<script src="assets/script.js"></script>
+</body>
+</html>
